@@ -106,8 +106,11 @@ SOP Bitcoin Mining in a Garage.pdf
 
 Org Roles - Med-Sized Bitcoin Mining Operation.pdf
 SOP Mid-Sized Bitcoin Mining Operations.pdf
+
 SOP Cooling and HVAC Operations in a Medium-Sized Bitcoin Mining Facility.pdf
+
 SOP Electrical Technicians in a Medium-Sized Bitcoin Mining Organization.pdf
+
 SOP Physical Security of a Medium-Sized Bitcoin Mining Facility.pdf
 
 **Large-Scale Operations**
@@ -117,51 +120,73 @@ SOP Large-Scale Bitcoin Mining Operations.pdf
 **General/All Sizes**
 
 Bitcoin Mining Pool Decision Guide.pdf
+
 List of Relevant Vendors for Bitcoin Mining Operations.pdf
+
 SOP - Emergency Shutdown and Disaster Recovery.pdf
+
 SOP - Power Redundancy & Backup Systems.pdf
+
 SOP - Remote Monitoring & Management.pdf
+
 SOP Compliance and Legal.pdf
+
 SOP Incident Response.pdf
 
 ### By Specific Roles
 **Hardware Technicians**
 
 Bitmain Antminer Diagnostic Checklist.pdf
+
 Canaan Avalon Bitcoin Miner Diagnostic Checklist.pdf
+
 MicroBT Whatsminer Diagnostic Checklist.pdf
+
 SOP Bitcoin Mining Machine Technician.pdf
+
 Standard Operating Procedure (SOP) General Repair Technician: Bitmain Antminers.pdf
+
 Standard Operating Procedure (SOP) General Repair Technician: MicroBT WhatsMiners.pdf
 
 **Firmware/Software Management**
 
 Firmware Deployment Checklist.pdf
+
 Firmware Security Guidelines.pdf
+
 Firmware Testing Documentation Template.pdf
+
 Firmware Update Planning Template.pdf
+
 SOP- Firmware Management.pdf
 
 **Electrical/Power Management**
 
 Power System Maintenance Checklists.pdf
+
 SOP Electrical Technicians in a Medium-Sized Bitcoin Mining Organization.pdf
+
 SOP - Power Redundancy & Backup Systems.pdf
 
 **Cooling Systems**
 
 SOP - Immersion Cooling System in Bitcoin Mining Ops.pdf
+
 SOP Cooling and HVAC Operations in a Medium-Sized Bitcoin Mining Facility.pdf
 
 **Security & Compliance**
 
 SOP Physical Security of a Medium-Sized Bitcoin Mining Facility.pdf
+
 SOP Compliance and Legal.pdf
+
 SOP Incident Response.pdf
 
 **Human Resources & Training**
 
 SOP Employee Training, Onboarding, and Human Resources (HR).pdf
+
+
 Contributing: We welcome contributions to improve these templates. Please submit a pull request with your suggested changes. All offered under the GLP3.0 License  
 
 
