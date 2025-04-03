@@ -1,198 +1,79 @@
-# **Bitcoin Mining_SOPs**
-## **Bitcoin and Crypto Mining Standard Operating Procedure Templates**
+# Bitcoin Mining Facility Standard Operating Procedures (SOPs)
 
+<!-- Shields/Badges (Optional) -->
+![Project Status](https://img.shields.io/badge/status-active-brightgreen) 
+![SOP Version](https://img.shields.io/badge/version-1.0-blue)
 
+## 📂 Repository Structure
 This repository contains a collection of Standard Operating Procedure (SOP) templates for Bitcoin mining operations of various sizes. These templates are designed to help Bitcoin mining operations establish and maintain best practices, ensure consistency, and improve efficiency.
 
 
-What are IT Standard Operating Procedures (IT SOPs)? 
-> *IT SOPs are detailed, written documents that describe specific IT departments and data center procedures. They are crucial for creating and maintaining uniform, reliable outcomes for your data center functions.*
-SOPs are useful for:
+## 🔐 1. Core Operational Areas
 
+### A. Security & Risk Management
+| SOP | Description | Key Areas |
+|------|-------------|-----------|
+| [Physical Security](1_core_operations/security_risk_management/physical_security.md) | Secures physical assets | Access control, surveillance, perimeter |
+| [Incident Response](1_core_operations/security_risk_management/incident_response.md) | Structured incident handling | Identification, communication, review |
+| [Compliance & Legal](1_core_operations/security_risk_management/compliance_legal.md) | Regulatory adherence | Permits, data protection, audits |
 
-### Onboarding new IT employees 
-Starting new projects Documenting existing practices 
-Training and disaster recovery 
-Ensuring compliance with regulations
+### B. Technical Operations
+| SOP | Description | Critical Components |
+|------|-------------|----------------------|
+| [Electrical Systems](1_core_operations/technical_operations/electrical.md) | Power management | Installation, redundancy, maintenance |
+| [Cooling/HVAC](1_core_operations/technical_operations/cooling_hvac.md) | Temperature control | HVAC ops, immersion cooling |
+| [Hardware Management](1_core_operations/technical_operations/hardware_management.md) | Miner maintenance | Setup, optimization, repairs |
 
+*(Additional files in [`/technical_operations`](1_core_operations/technical_operations/))*
 
-Contents This repository includes the following SOP templates:
+## 📏 2. By Operation Size
 
-## Operational Scale-Based SOPs
+### Small/Home Operations
+- [Garage Mining SOP](2_by_operation_size/small_home_ops/garage_mining.md)
+- [Energy Efficiency Guide](2_by_operation_size/small_home_ops/energy_efficiency.md)
 
-### Bitcoin Mining Operations
-**Standard Operating Procedure (SOP) for Bitcoin Mining in a Garage**
-  Description: Guidelines for small-scale, home-based mining setups.
-  Use Case: Individual miners or hobbyists operating mining rigs from residential garages.
+### Medium Facilities
+- [Mid-Sized Operations Playbook](2_by_operation_size/medium_facilities/playbook.md)
+- [Scaled Security Protocols](2_by_operation_size/medium_facilities/scaled_security.md)
 
-**Standard Operating Procedure (SOP) for Mid-Sized Bitcoin Mining Operations**
-  Description: Procedures for medium-sized facilities with moderate mining capacity.
-  Use Case: Organizations running multiple mining rigs in dedicated facilities.
+### Large-Scale
+- [Multi-Site Management](2_by_operation_size/large_scale_ops/multi_site_management.md)
+- [Enterprise Redundancy](2_by_operation_size/large_scale_ops/enterprise_redundancy.md)
 
-**Standard Operating Procedure (SOP) for Large-Scale Bitcoin Mining Operations**
-  Description: Comprehensive guidelines for extensive mining farms with high computational power and significant infrastructure.
-  Use Case: Enterprises operating large-scale mining operations with substantial energy and cooling requirements.
+## 👥 3. Role-Specific SOPs
 
-## Functional Area SOPs
-These SOPs focus on specific operational functions within the mining organization, ensuring specialized processes are standardized and optimized.
+### Hardware Technicians
+- [Bitmain Antminer Repairs](3_role_specific/hardware_technicians/bitmain_repairs.md)
+- [MicroBT Whatsminer Diagnostics](3_role_specific/hardware_technicians/microbt_diagnostics.md)
 
-### Security Management
-**Standard Operating Procedure (SOP) for Physical Security of a Medium-Sized Bitcoin Mining Facility**
-  Description: Strategies and measures to secure physical assets and infrastructure.
-  Key Areas: Access control, surveillance systems, perimeter security, and incident response.
-  
-**Standard Operating Procedure (SOP) for Incident Response**
-  Description: Structured approach for managing incidents that disrupt operations or compromise security.
-  Key Areas: Incident identification, response protocols, communication plans, and post-incident review.
+### Firmware Teams
+- [Firmware Deployment Checklist](3_role_specific/firmware_teams/deployment_checklist.md)
+- [Security Update Protocol](3_role_specific/firmware_teams/security_updates.md)
 
-### Technical Operations
-**Standard Operating Procedure (SOP) for Cooling and HVAC Operations in a Medium-Sized Bitcoin Mining Facility**
-  Description: Management of cooling systems to maintain optimal operating temperatures.
-  Key Areas: Installation, system configuration, daily operations, maintenance, and troubleshooting.
+*(See full role list in [`/3_role_specific`](3_role_specific/))*
 
-**Standard Operating Procedure (SOP) for Electrical Technicians in a Medium-Sized Bitcoin Mining Organization**
-  Description: Guidelines for electrical maintenance and management within the facility.
-  Key Areas: Installation, routine maintenance, troubleshooting, and compliance with electrical codes.
+## 🛠️ Templates & Resources
+- [SOP Writing Template](templates/sop_template.md)
+- [Vendor Evaluation Matrix](resources/vendor_lists/vendor_matrix.xlsx)
+- [Compliance Checklist](resources/compliance_checklists/gdpr_checklist.md)
 
-**Standard Operating Procedure (SOP) for Bitcoin Mining Machine Technician**
-  Description: Procedures for installing, maintaining, and troubleshooting mining hardware.
-  Key Areas: Hardware setup, software configuration, performance optimization, and repair protocols.
 
-**Standard Operating Procedure (SOP) for Energy Management**
-  Description: Strategies to optimize energy usage, reduce costs, and enhance sustainability.
-  Key Areas: Energy monitoring, efficiency strategies, renewable energy integration, and reporting.
-
-### Human Resources and Training
-**Standard Operating Procedure (SOP) for Employee Training, Onboarding, and Human Resources (HR)**
-  Description: Comprehensive guidelines for recruiting, onboarding, training, and managing employees.
-  Key Areas: Recruitment, onboarding processes, training programs, performance management, and employee relations.
-
-### Compliance and Legal
-**Standard Operating Procedure (SOP) for Compliance and Legal**
-  Description: Ensuring adherence to all relevant laws, regulations, and industry standards.
-  Key Areas: Regulatory compliance, licensing and permits, data protection, and legal documentation.
-
-### Organizational Structure
-**Organizational Roles for a Medium-Sized Bitcoin Mining Operation**
-  Description: Defines roles, responsibilities, and hierarchical structure within the organization.
-  Key Areas: Job descriptions, reporting lines, role-specific responsibilities, and team structures.
-
-
-**SOP Best Practices When creating and/or modifying your SOPs:**
-Include concise, step-by-step instructions Align with industry best practices Ensure data security and integrity Improve communication Operationalize policies Maintain organizational knowledge Streamline processes for efficiency
-
-
-Remember, SOPs apply to all users, regardless of whether they are onsite or working remotely.
-
-
-### How to Use These Templates
-Choose the appropriate template for your operation size and specific needs. Customize the template to fit your organization's specific requirements. Break down procedures into steps, hierarchies, or flowcharts. Get feedback from stakeholders and team members who execute the processes. Refine and test the procedures. Compile all components into a comprehensive SOP document.
-
-
-**Maintaining Your SOPs SOPs are living documents**
-Review them every six to twelve months to identify steps that may need modification due to:
-Changes in your environment 
-Additions to the system 
-New variables 
-Team changes 
-File storage modifications
-
-### By Mining Operation Size
-**Small/Home Operation**s
-
-SOP Bitcoin Mining in a Garage.pdf
-
-**Medium-Sized Operations**
-
-Org Roles - Med-Sized Bitcoin Mining Operation.pdf
-SOP Mid-Sized Bitcoin Mining Operations.pdf
-
-SOP Cooling and HVAC Operations in a Medium-Sized Bitcoin Mining Facility.pdf
-
-SOP Electrical Technicians in a Medium-Sized Bitcoin Mining Organization.pdf
-
-SOP Physical Security of a Medium-Sized Bitcoin Mining Facility.pdf
-
-**Large-Scale Operations**
-
-SOP Large-Scale Bitcoin Mining Operations.pdf
-
-**General/All Sizes**
-
-Bitcoin Mining Pool Decision Guide.pdf
-
-List of Relevant Vendors for Bitcoin Mining Operations.pdf
-
-SOP - Emergency Shutdown and Disaster Recovery.pdf
-
-SOP - Power Redundancy & Backup Systems.pdf
-
-SOP - Remote Monitoring & Management.pdf
-
-SOP Compliance and Legal.pdf
-
-SOP Incident Response.pdf
-
-### By Specific Roles
-**Hardware Technicians**
-
-Bitmain Antminer Diagnostic Checklist.pdf
-
-Canaan Avalon Bitcoin Miner Diagnostic Checklist.pdf
-
-MicroBT Whatsminer Diagnostic Checklist.pdf
-
-SOP Bitcoin Mining Machine Technician.pdf
-
-Standard Operating Procedure (SOP) General Repair Technician: Bitmain Antminers.pdf
-
-Standard Operating Procedure (SOP) General Repair Technician: MicroBT WhatsMiners.pdf
-
-**Firmware/Software Management**
-
-Firmware Deployment Checklist.pdf
-
-Firmware Security Guidelines.pdf
-
-Firmware Testing Documentation Template.pdf
-
-Firmware Update Planning Template.pdf
-
-SOP- Firmware Management.pdf
-
-**Electrical/Power Management**
-
-Power System Maintenance Checklists.pdf
-
-SOP Electrical Technicians in a Medium-Sized Bitcoin Mining Organization.pdf
-
-SOP - Power Redundancy & Backup Systems.pdf
-
-**Cooling Systems**
-
-SOP - Immersion Cooling System in Bitcoin Mining Ops.pdf
-
-SOP Cooling and HVAC Operations in a Medium-Sized Bitcoin Mining Facility.pdf
-
-**Security & Compliance**
-
-SOP Physical Security of a Medium-Sized Bitcoin Mining Facility.pdf
-
-SOP Compliance and Legal.pdf
-
-SOP Incident Response.pdf
-
-**Human Resources & Training**
-
-SOP Employee Training, Onboarding, and Human Resources (HR).pdf
-
-
-Contributing: We welcome contributions to improve these templates. Please submit a pull request with your suggested changes. All offered under the GLP3.0 License  
-
+We welcome contributions to improve these templates. Please submit a pull request with your suggested changes. All offered under the GLP3.0 License  
 
 **Contact For More Information**
 
 Support@w3cb.org 
 
 Support@theblockchainacademy.com
+
+
+## 🔄 Maintenance Protocol
+```python
+# Example review schedule (adapt as needed)
+sop_review_schedule = {
+    "security_sops": "quarterly",
+    "technical_sops": "biannually",
+    "hr_sops": "annually",
+    "triggered_updates": ["new_regulations", "hardware_upgrades"]
+}
 
