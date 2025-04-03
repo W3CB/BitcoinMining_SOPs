@@ -151,6 +151,6 @@ Want to propose changes or submit new SOP templates? Fork the repo and submit a 
 Maintained by: **Bryant D. Nielson, CEO**  
 Web3 Certification Board | [w3cb.org](https://www.w3cb.org)
 
----
-
 > *Certainty builds trust. These SOPs are how we build both.*
+
+Updated: April 3, 2025
