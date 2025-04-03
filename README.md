@@ -3,6 +3,7 @@
 <!-- Shields/Badges (Optional) -->
 ![Project Status](https://img.shields.io/badge/status-active-brightgreen) 
 ![SOP Version](https://img.shields.io/badge/version-2.0-blue)
+Updated: April 3, 2025
 
 ## 📂 Repository Structure
 This repository contains a collection of Standard Operating Procedure (SOP) templates for Bitcoin mining operations of various sizes. These templates are designed to help Bitcoin mining operations establish and maintain best practices, ensure consistency, and improve efficiency.
@@ -36,39 +37,39 @@ Whether running a garage setup or managing a multi-megawatt facility, these SOPs
 3. **Consult** with your compliance and operations teams before deployment.  
 4. **Review** every 6-12 months or upon major system/environment changes.
 
-#### 🔒 Security & Compliance
+### 🔒 Security & Compliance
 
 | **SOP Title** | **Role(s)** | **Facility Size** | **Filename (PDF)** |
 |---------------|-------------|-------------------|---------------------|
-| Physical Security | Security Officer, Facility Manager | Medium | SOP Physical Security of a Medium-Sized Bitcoin Mining Facility.pdf |
 | Compliance & Legal | Compliance Officer, Legal Counsel | All | SOP Compliance and Legal.pdf |
+| Physical Security | Security Officer, Facility Manager | Medium | SOP Physical Security of a Medium-Sized Bitcoin Mining Facility.pdf |
 | Vendor List | Procurement, Ops Manager | All | List of Relevant Vendors for Bitcoin Mining Operations.pdf |
 
 ### 🔌 Electrical and Cooling Systems
 
 | **SOP Title** | **Role(s)** | **Facility Size** | **Filename (PDF)** |
 |---------------|-------------|-------------------|---------------------|
-| Electrical Technician SOP | Electrical Technician | Medium | SOP Electrical Technicians in a Medium-Sized Bitcoin Mining Organization.pdf |
-| Power Redundancy | Electrical Technician, Engineer | All | SOP - Power Redundancy & Backup Systems.pdf |
 | Cooling & HVAC Operations | HVAC Technician, Facilities Engineer | Medium | SOP Cooling and HVAC Operations in a Medium-Sized Bitcoin Mining Facility.pdf |
+| Electrical Technician SOP | Electrical Technician | Medium | SOP Electrical Technicians in a Medium-Sized Bitcoin Mining Organization.pdf |
 | Immersion Cooling | Facilities Engineer, HVAC Tech | All | SOP - Immersion Cooling System in Bitcoin Mining Ops.pdf |
+| Power Redundancy | Electrical Technician, Engineer | All | SOP - Power Redundancy & Backup Systems.pdf |
 | Power System Maintenance Checklist | Electrical Technician | All | Power System Maintenance Checklists.pdf |
 
 ### 🛠️ Firmware & Hardware Maintenance
 
 | **SOP Title** | **Role(s)** | **Facility Size** | **Filename (PDF)** |
 |---------------|-------------|-------------------|---------------------|
-| Machine Technician SOP | Hardware Technician | Medium | SOP Bitcoin Mining Machine Technician.pdf |
-| General Repair - Bitmain | Repair Technician | All | SOP General Repair Technician: Bitmain Antminers.pdf |
-| General Repair - WhatsMiner | Repair Technician | All | SOP General Repair Technician: MicroBT WhatsMiners.pdf |
 | Bitmain Diagnostic | Bitmain Technician | All | Bitmain Antminer Diagnostic Checklist.pdf |
 | Canaan Avalon Diagnostic | Hardware Technician | All | Canaan Avalon Bitcoin Miner Diagnostic Checklist.pdf |
-| Whatsminer Diagnostic | Hardware Technician | All | MicroBT Whatsminer Diagnostic Checklist.pdf |
-| Firmware Management | Firmware Engineer, Hardware Technician | All | SOP- Firmware Management.pdf |
 | Firmware Deployment Checklist | Firmware Engineer | All | Firmware Deployment Checklist.pdf |
+| Firmware Management | Firmware Engineer, Hardware Technician | All | SOP- Firmware Management.pdf |
 | Firmware Security Guidelines | Firmware Engineer, CISO | All | Firmware Security Guidelines.pdf |
 | Firmware Testing Template | QA Engineer | All | Firmware Testing Documentation Template.pdf |
 | Firmware Update Planning | Firmware Engineer | All | Firmware Update Planning Template.pdf |
+| General Repair - Bitmain | Repair Technician | All | SOP General Repair Technician: Bitmain Antminers.pdf |
+| General Repair - WhatsMiner | Repair Technician | All | SOP General Repair Technician: MicroBT WhatsMiners.pdf |
+| Machine Technician SOP | Hardware Technician | Medium | SOP Bitcoin Mining Machine Technician.pdf |
+| Whatsminer Diagnostic | Hardware Technician | All | MicroBT Whatsminer Diagnostic Checklist.pdf |
 
 ### 👥 HR & Organizational Structure
 
@@ -81,8 +82,8 @@ Whether running a garage setup or managing a multi-megawatt facility, these SOPs
 
 | **SOP Title** | **Role(s)** | **Facility Size** | **Filename (PDF)** |
 |---------------|-------------|-------------------|---------------------|
-| Incident Response | Security Officer, Site Manager | All | SOP Incident Response.pdf |
 | Emergency Shutdown & DR | Site Manager, Ops Lead | All | SOP - Emergency Shutdown and Disaster Recovery.pdf |
+| Incident Response | Security Officer, Site Manager | All | SOP Incident Response.pdf |
 | Remote Monitoring & Mgmt | IT Admin, Ops Manager | All | SOP - Remote Monitoring & Management.pdf |
 
 ### 🌋 Energy Optimization
@@ -95,39 +96,10 @@ Whether running a garage setup or managing a multi-megawatt facility, these SOPs
 
 | **SOP Title** | **Role(s)** | **Facility Size** | **Filename (PDF)** |
 |---------------|-------------|-------------------|---------------------|
-| Small Garage Mining | Hobbyist, Home Miner | Small | SOP Bitcoin Mining in a Garage.pdf |
-| Mid-Size Ops SOP | Site Manager, All Roles | Medium | SOP Mid-Sized Bitcoin Mining Operations.pdf |
-| Large-Scale Ops SOP | Ops Director, Exec Team | Large | SOP Large-Scale Bitcoin Mining Operations.pdf |
-| Pool Decision Guide | CTO, Technical Lead | All | Bitcoin Mining Pool Decision Guide.pdf |------------|-------------|-------------------|---------------------|
-| Physical Security | Security Officer, Facility Manager | Medium | SOP Physical Security of a Medium-Sized Bitcoin Mining Facility.pdf |
-| Incident Response | Security Officer, Site Manager | All | SOP Incident Response.pdf |
-| Cooling & HVAC Operations | HVAC Technician, Facilities Engineer | Medium | SOP Cooling and HVAC Operations in a Medium-Sized Bitcoin Mining Facility.pdf |
-| Electrical Technician SOP | Electrical Technician | Medium | SOP Electrical Technicians in a Medium-Sized Bitcoin Mining Organization.pdf |
-| Machine Technician SOP | Hardware Technician | Medium | SOP Bitcoin Mining Machine Technician.pdf |
-| Energy Management | Energy Manager, Facilities Engineer | Medium | SOP Energy Management.pdf |
-| Employee Onboarding & HR | HR Manager | All | SOP Employee Training, Onboarding, and Human Resources (HR).pdf |
-| Compliance & Legal | Compliance Officer, Legal Counsel | All | SOP Compliance and Legal.pdf |
-| Organizational Roles | All Staff, Site Leads | Medium | Org Roles - Med-Sized Bitcoin Mining Operation.pdf |
-| Emergency Shutdown & DR | Site Manager, Ops Lead | All | SOP - Emergency Shutdown and Disaster Recovery.pdf |
-| Power Redundancy | Electrical Technician, Engineer | All | SOP - Power Redundancy & Backup Systems.pdf |
-| Remote Monitoring & Mgmt | IT Admin, Ops Manager | All | SOP - Remote Monitoring & Management.pdf |
-| Firmware Management | Firmware Engineer, Hardware Technician | All | SOP- Firmware Management.pdf |
-| Immersion Cooling | Facilities Engineer, HVAC Tech | All | SOP - Immersion Cooling System in Bitcoin Mining Ops.pdf |
 | Large-Scale Ops SOP | Ops Director, Exec Team | Large | SOP Large-Scale Bitcoin Mining Operations.pdf |
 | Mid-Size Ops SOP | Site Manager, All Roles | Medium | SOP Mid-Sized Bitcoin Mining Operations.pdf |
-| Small Garage Mining | Hobbyist, Home Miner | Small | SOP Bitcoin Mining in a Garage.pdf |
-| Bitmain Diagnostic | Bitmain Technician | All | Bitmain Antminer Diagnostic Checklist.pdf |
-| Canaan Avalon Diagnostic | Hardware Technician | All | Canaan Avalon Bitcoin Miner Diagnostic Checklist.pdf |
-| Whatsminer Diagnostic | Hardware Technician | All | MicroBT Whatsminer Diagnostic Checklist.pdf |
-| Firmware Deployment Checklist | Firmware Engineer | All | Firmware Deployment Checklist.pdf |
-| Firmware Security Guidelines | Firmware Engineer, CISO | All | Firmware Security Guidelines.pdf |
-| Firmware Testing Template | QA Engineer | All | Firmware Testing Documentation Template.pdf |
-| Firmware Update Planning | Firmware Engineer | All | Firmware Update Planning Template.pdf |
-| General Repair - Bitmain | Repair Technician | All | SOP General Repair Technician: Bitmain Antminers.pdf |
-| General Repair - WhatsMiner | Repair Technician | All | SOP General Repair Technician: MicroBT WhatsMiners.pdf |
-| Vendor List | Procurement, Ops Manager | All | List of Relevant Vendors for Bitcoin Mining Operations.pdf |
 | Pool Decision Guide | CTO, Technical Lead | All | Bitcoin Mining Pool Decision Guide.pdf |
-
+| Small Garage Mining | Hobbyist, Home Miner | Small | SOP Bitcoin Mining in a Garage.pdf |
 
 ## 🌁 SOP Best Practices
 
@@ -153,4 +125,4 @@ Web3 Certification Board | [w3cb.org](https://www.w3cb.org)
 
 > *Certainty builds trust. These SOPs are how we build both.*
 
-Updated: April 3, 2025
+
