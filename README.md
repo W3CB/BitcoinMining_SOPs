@@ -7,73 +7,86 @@
 ## 📂 Repository Structure
 This repository contains a collection of Standard Operating Procedure (SOP) templates for Bitcoin mining operations of various sizes. These templates are designed to help Bitcoin mining operations establish and maintain best practices, ensure consistency, and improve efficiency.
 
+Welcome to the official Standard Operating Procedures (SOPs) repository for medium and large-scale Bitcoin mining operations. This collection is designed to ensure operational excellence, security, efficiency, and compliance across mining environments of all sizes.
 
-## 🔐 1. Core Operational Areas
+## 📚 Overview
 
-### A. Security & Risk Management
-| SOP | Description | Key Areas |
-|------|-------------|-----------|
-| [Physical Security](1_core_operations/security_risk_management/physical_security.md) | Secures physical assets | Access control, surveillance, perimeter |
-| [Incident Response](1_core_operations/security_risk_management/incident_response.md) | Structured incident handling | Identification, communication, review |
-| [Compliance & Legal](1_core_operations/security_risk_management/compliance_legal.md) | Regulatory adherence | Permits, data protection, audits |
+This repository contains categorized and customizable SOP templates and checklists for:
+- **Security & Compliance**
+- **Electrical and Cooling Systems**
+- **Firmware & Hardware Maintenance**
+- **HR & Organizational Structure**
+- **Incident Response**
+- **Energy Optimization**
 
-### B. Technical Operations
-| SOP | Description | Critical Components |
-|------|-------------|----------------------|
-| [Electrical Systems](1_core_operations/technical_operations/electrical.md) | Power management | Installation, redundancy, maintenance |
-| [Cooling/HVAC](1_core_operations/technical_operations/cooling_hvac.md) | Temperature control | HVAC ops, immersion cooling |
-| [Hardware Management](1_core_operations/technical_operations/hardware_management.md) | Miner maintenance | Setup, optimization, repairs |
+Whether you're running a garage setup or managing a multi-megawatt facility, these SOPs help ensure industry best practices, risk mitigation, and streamlined operations.
 
-*(Additional files in [`/technical_operations`](1_core_operations/technical_operations/))*
+## 📁 Repository Structure
 
-## 📏 2. By Operation Size
+| Folder | Contents |
+|--------|----------|
+| `General/` | SOPs applicable to all mining operations |
+| `By-Operation-Size/` | SOPs organized by scale: Small, Medium, Large |
+| `By-Role/` | Role-specific SOPs for Technicians, HR, Firmware teams, etc. |
 
-### Small/Home Operations
-- [Garage Mining SOP](2_by_operation_size/small_home_ops/garage_mining.md)
-- [Energy Efficiency Guide](2_by_operation_size/small_home_ops/energy_efficiency.md)
+## ⚙️ How to Use
 
-### Medium Facilities
-- [Mid-Sized Operations Playbook](2_by_operation_size/medium_facilities/playbook.md)
-- [Scaled Security Protocols](2_by_operation_size/medium_facilities/scaled_security.md)
+1. **Choose** the SOP relevant to your operation size or team role.  
+2. **Customize** steps, checklists, and workflows based on your local regulations, team needs, or hardware profiles.  
+3. **Consult** with your compliance and operations teams before deployment.  
+4. **Review** every 6-12 months or upon major system/environment changes.
 
-### Large-Scale
-- [Multi-Site Management](2_by_operation_size/large_scale_ops/multi_site_management.md)
-- [Enterprise Redundancy](2_by_operation_size/large_scale_ops/enterprise_redundancy.md)
+## 📈 SOP Alignment Table: By Job Role and Facility Size
 
-## 👥 3. Role-Specific SOPs
+| **SOP Title** | **Role(s)** | **Facility Size** | **Filename (PDF)** |
+|---------------|-------------|-------------------|---------------------|
+| Physical Security | Security Officer, Facility Manager | Medium | SOP Physical Security of a Medium-Sized Bitcoin Mining Facility.pdf |
+| Incident Response | Security Officer, Site Manager | All | SOP Incident Response.pdf |
+| Cooling & HVAC Operations | HVAC Technician, Facilities Engineer | Medium | SOP Cooling and HVAC Operations in a Medium-Sized Bitcoin Mining Facility.pdf |
+| Electrical Technician SOP | Electrical Technician | Medium | SOP Electrical Technicians in a Medium-Sized Bitcoin Mining Organization.pdf |
+| Machine Technician SOP | Hardware Technician | Medium | SOP Bitcoin Mining Machine Technician.pdf |
+| Energy Management | Energy Manager, Facilities Engineer | Medium | SOP Energy Management.pdf |
+| Employee Onboarding & HR | HR Manager | All | SOP Employee Training, Onboarding, and Human Resources (HR).pdf |
+| Compliance & Legal | Compliance Officer, Legal Counsel | All | SOP Compliance and Legal.pdf |
+| Organizational Roles | All Staff, Site Leads | Medium | Org Roles - Med-Sized Bitcoin Mining Operation.pdf |
+| Emergency Shutdown & DR | Site Manager, Ops Lead | All | SOP - Emergency Shutdown and Disaster Recovery.pdf |
+| Power Redundancy | Electrical Technician, Engineer | All | SOP - Power Redundancy & Backup Systems.pdf |
+| Remote Monitoring & Mgmt | IT Admin, Ops Manager | All | SOP - Remote Monitoring & Management.pdf |
+| Firmware Management | Firmware Engineer, Hardware Technician | All | SOP- Firmware Management.pdf |
+| Immersion Cooling | Facilities Engineer, HVAC Tech | All | SOP - Immersion Cooling System in Bitcoin Mining Ops.pdf |
+| Large-Scale Ops SOP | Ops Director, Exec Team | Large | SOP Large-Scale Bitcoin Mining Operations.pdf |
+| Mid-Size Ops SOP | Site Manager, All Roles | Medium | SOP Mid-Sized Bitcoin Mining Operations.pdf |
+| Small Garage Mining | Hobbyist, Home Miner | Small | SOP Bitcoin Mining in a Garage.pdf |
+| Bitmain Diagnostic | Bitmain Technician | All | Bitmain Antminer Diagnostic Checklist.pdf |
+| Canaan Avalon Diagnostic | Hardware Technician | All | Canaan Avalon Bitcoin Miner Diagnostic Checklist.pdf |
+| Whatsminer Diagnostic | Hardware Technician | All | MicroBT Whatsminer Diagnostic Checklist.pdf |
+| Firmware Deployment Checklist | Firmware Engineer | All | Firmware Deployment Checklist.pdf |
+| Firmware Security Guidelines | Firmware Engineer, CISO | All | Firmware Security Guidelines.pdf |
+| Firmware Testing Template | QA Engineer | All | Firmware Testing Documentation Template.pdf |
+| Firmware Update Planning | Firmware Engineer | All | Firmware Update Planning Template.pdf |
+| General Repair - Bitmain | Repair Technician | All | SOP General Repair Technician: Bitmain Antminers.pdf |
+| General Repair - WhatsMiner | Repair Technician | All | SOP General Repair Technician: MicroBT WhatsMiners.pdf |
+| Vendor List | Procurement, Ops Manager | All | List of Relevant Vendors for Bitcoin Mining Operations.pdf |
+| Pool Decision Guide | CTO, Technical Lead | All | Bitcoin Mining Pool Decision Guide.pdf |
 
-### Hardware Technicians
-- [Bitmain Antminer Repairs](3_role_specific/hardware_technicians/bitmain_repairs.md)
-- [MicroBT Whatsminer Diagnostics](3_role_specific/hardware_technicians/microbt_diagnostics.md)
+## 🌁 SOP Best Practices
 
-### Firmware Teams
-- [Firmware Deployment Checklist](3_role_specific/firmware_teams/deployment_checklist.md)
-- [Security Update Protocol](3_role_specific/firmware_teams/security_updates.md)
+- Keep instructions clear and step-by-step.
+- Align procedures with current industry regulations.
+- Emphasize **data integrity**, **incident readiness**, and **operational transparency**.
+- Ensure documentation is accessible to both onsite and remote team members.
 
-*(See full role list in [`/3_role_specific`](3_role_specific/))*
+## ✨ Contributing
 
-## 🛠️ Templates & Resources
-- [SOP Writing Template](templates/sop_template.md)
-- [Vendor Evaluation Matrix](resources/vendor_lists/vendor_matrix.xlsx)
-- [Compliance Checklist](resources/compliance_checklists/gdpr_checklist.md)
+Want to propose changes or submit new SOP templates? Fork the repo and submit a pull request. All suggestions are reviewed for quality and industry compliance.
 
+---
 
-We welcome contributions to improve these templates. Please submit a pull request with your suggested changes. All offered under the GLP3.0 License  
+## 📬 Contact
 
-**Contact For More Information**
+Maintained by: **Bryant D. Nielson, CEO**  
+Web3 Certification Board | [w3cb.org](https://www.w3cb.org)
 
-Support@w3cb.org 
+---
 
-Support@theblockchainacademy.com
-
-
-## 🔄 Maintenance Protocol
-```python
-# Example review schedule (adapt as needed)
-sop_review_schedule = {
-    "security_sops": "quarterly",
-    "technical_sops": "biannually",
-    "hr_sops": "annually",
-    "triggered_updates": ["new_regulations", "hardware_upgrades"]
-}
-
+> *Certainty builds trust. These SOPs are how we build both.*
